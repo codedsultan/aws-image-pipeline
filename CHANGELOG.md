@@ -14,3 +14,5 @@ versioning follows [Semantic Versioning](https://semver.org/).
   models, `pydantic-settings`-based config, injected boto3 client factories,
   and `ImageProcessor` for thumbnail generation and SNS notification
 - Setup, testing, and deploy instructions in the README
+- Unit test suite (`pytest` + `moto`) covering thumbnail generation and
+  aspect-ratio preservation, runnable with no AWS credentials
