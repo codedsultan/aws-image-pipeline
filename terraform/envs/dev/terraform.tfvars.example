@@ -1,0 +1,5 @@
+aws_region          = "ca-central-1"
+project_name        = "image-pipeline"
+environment         = "dev"
+account_suffix      = "changeme123"  # e.g. last 6 digits of your AWS account ID
+notification_email  = ""              # optional, e.g. "you@example.com"
