@@ -10,3 +10,7 @@ versioning follows [Semantic Versioning](https://semver.org/).
 - Terraform infrastructure: S3 (raw/processed buckets), IAM (least-privilege
   Lambda execution role), Lambda, and SNS modules, composed for the dev
   environment
+- Lambda service layer: thin `handler.py` entrypoint, pydantic request/result
+  models, `pydantic-settings`-based config, injected boto3 client factories,
+  and `ImageProcessor` for thumbnail generation and SNS notification
+- Setup, testing, and deploy instructions in the README
